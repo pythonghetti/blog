@@ -4,7 +4,7 @@ title: "Introducing Me: Green as Grass"
 
 Hello the internet, my name is Simon New and I have absolutely no coding experience! Ok, that may be a little bit of an exaggeration as I am pretty confident with manipulating excel workbooks using formulae, but aside from that, my coding experience is non-existent.
 
-![Test](/emerald/img/mevic.jpg "Test")
+![Test](/emerald/img/mevic.png "Test")
 
 As of writing this post I am working as a Senior Development Scientist, developing diagnostic products for the clinical sector. In plain English, the products I design are mostly used to detect multi-drug resistant microorganisms from patients upon entering hospital prior to operations. I have been in this role for roughly 6 years now do still enjoy it. 
 
