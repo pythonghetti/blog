@@ -1,7 +1,7 @@
 ---
 title: Why Python?
 ---
-Approaching coding as a complete novice I quickly came to the realisation that I would need to make a choice as to which language to learn. My initial thought was ‘Oh, I’ll just learn the one that’s most widely used’. Well, the upshot of that is that there are a handful of languages that are currently used widely, all of which have different pros and cons.  So, first big question down this rabbit hole; what do you want to do with coding? My answer; gather and analyse large volumes of data, automate repetitive tasks, design some cool software that I can’t find online for issues I’ve encountered.  
+Approaching coding as a complete novice I quickly realised that I would need to research which language to learn. My initial thought was ‘Oh, I’ll just learn the one that’s most widely used’. Well, the upshot of that is that there are a handful of languages that are used widely, all of which have different pros and cons.  So, the first big question down this rabbit hole was 'what do you want to do with coding?' My answer; gather and analyse large volumes of data, automate repetitive tasks, design some cool software that I can’t find online for issues I’ve encountered and take my nerd status to the next level.
 
 Many of my R&D colleagues overseas have vast coding experience and after discussions with them, it became evident that either Python or R would be most appropriate. Further discussions with external contacts working in a scientific field also threw back Python. With this split between Python and R I took to the internet. Python boasts simple to read, yet powerful coding whereas R is one of the most established languages for scientific analysis.
 
