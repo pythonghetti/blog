@@ -4,6 +4,7 @@ title: A Little Mention for Java
 Writing this blog retrospectively means I may have glossed over a small fact. Before I’d spoken to my colleagues and properly figured out what I’d like to achieve with coding, I’d spent a couple of months learning to code with Java. 
 
 I’m actually quite glad I went down the Java route first as it really did highlight the simplicity of Python syntax. It also meant I was lucky enough to create two “hello world” programs. Here’s the classic “hello world” code in the two languages.
+
 Java:
 ![java](/blog/img/java.png "Java hello world")
 
