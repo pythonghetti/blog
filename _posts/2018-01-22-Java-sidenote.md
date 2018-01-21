@@ -8,9 +8,13 @@ I’m actually quite glad I went down the Java route first as it really did high
 Code to print “hello world” in Java:
 
 public class HelloWorld {
+
     public static void main(String[] args) {
+    
         System.out.println("Hello, World");
+        
     }
+    
 }
 
 Code to print “hello world” in Python:
