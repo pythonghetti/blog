@@ -4,17 +4,14 @@ title: A Little Mention for Java
 Writing this blog retrospectively means I may have glossed over a small fact. Before I’d spoken to my colleagues and properly figured out what I’d like to achieve with coding, I’d spent a couple of months learning to code with Java. 
 
 I’m actually quite glad I went down the Java route first as it really did highlight the simplicity of Python syntax. For instance, here’s the classic “hello world” code in the two languages.
-
+{
 Code to print “hello world” in Java:
 
 public class HelloWorld {
-
     public static void main(String[] args) {
-    
-        System.out.println("Hello, World");
-        
-    }
-    
+        System.out.println("Hello, World");   
+    }  
+}
 }
 
 Code to print “hello world” in Python:
