@@ -11,12 +11,13 @@ Design a GUI that allows users to sort, batch process sequences, organise the ou
 
 At the time of inception, this was way beyond my capabilities. In fact GUI generation is still beyond my capability, but my plan was to generate the separate scripts and modules before linking them together with a GUI and package the entire thing. Remember, I work in a non-coding environment so requiring users to input commands into a shell or Python interpreter is not an option. And also remember, I’m still writing these retrospectively.
 
-Right of the bat I’d identified several functions I wanted to include. In order of complexity (and thus the order in which I have begun to write code) these are:
-•	FASTA analyser (to analyse FASTA sequences)
-•	Sequence sorter (to automatically sort raw sequence data by unique elements into folders)
-•	Directory rename (to rename multiple folders)
-•	Drive organiser (to automatically organise and store processed/output sequence data in a directory)
-•	FASTA finder (to retrieve FASTA sequences stored by the previous script, depending on user input)
+Right of the bat I’d identified several functions I wanted to include. In order of complexity (and thus the order in which I have begun to write code) these are:<br>
+•	FASTA analyser (to analyse FASTA sequences)<br>
+•	Sequence sorter (to automatically sort raw sequence data by unique elements into folders)<br>
+•	Directory rename (to rename multiple folders)<br>
+•	Drive organiser (to automatically organise and store processed/output sequence data in a directory)<br>
+•	FASTA finder (to retrieve FASTA sequences stored by the previous script, depending on user input)<br>
+
 I’ll be doing a series of blog posts diving in much more detail into each of these modules and plan to put my code on GitHub as I go. I will be modifying the code to make it applicable (hopefully) to the scientific community rather than just my personal use.
 
 
