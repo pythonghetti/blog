@@ -23,6 +23,7 @@ I’ll be doing a series of blog posts diving in much more detail into each of t
 
 In addition I also want to do short posts on useful tips I’m picking up whilst learning Python.
 
+<br>
 Resources: <br>
 https://blast.ncbi.nlm.nih.gov/Blast.cgi?CMD=Web&PAGE_TYPE=BlastDocs&DOC_TYPE=BlastHelp <br>
 https://en.wikipedia.org/wiki/Phylogenetic_tree <br>
