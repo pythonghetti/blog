@@ -11,7 +11,7 @@ Design a GUI that allows users to sort, batch process sequences, organise the ou
 
 At the time of inception, this was way beyond my capabilities. In fact GUI generation is still beyond my capability, but my plan was to generate the separate scripts and modules before linking them together with a GUI and package the entire thing. Remember, I work in a non-coding environment so requiring users to input commands into a shell or Python interpreter is not an option. And also remember, I’m still writing these retrospectively.
 
-Right of the bat I’d identified several functions I wanted to include. In order of complexity (and thus the order in which I have begun to write code) these are:<br>
+Right of the bat I’d identified several functions I wanted to include. In order of complexity (and thus the order in which I have begun to write code) these are:<br> <br>
 •	FASTA analyser (to analyse FASTA sequences)<br>
 •	Sequence sorter (to automatically sort raw sequence data by unique elements into folders)<br>
 •	Directory rename (to rename multiple folders)<br>
