@@ -4,12 +4,10 @@ title: Python tips and tricks - literal vs raw strings
 When I began writing some basic code, I wanted to reference a particular directory. What I wrote looked a little something like this:
 
 ![pic1](/blog/img/pic1.png "string with escape characters")
-Pic1
 
 The problem with this is that Python recognises “\” as an escape character. So to solve my issue I had to manually go through and change “\” to “/”. This did solve the issue but was annoying especially as I was copy and pasting directories locations, often with many back slashes.
 
 ![pic2](/blog/img/pic2.png "edited literal string")
-Pic2
 
 One way to solve my issue would be to change every “\” to “\\”. This tells Python to ignore the single backslash as an escape character. However, again this would mean that I would have to go through and change “\” to “\\”.
 
