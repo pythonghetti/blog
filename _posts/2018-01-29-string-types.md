@@ -3,19 +3,21 @@ title: Python tips and tricks: Strings - literal vs raw
 ---
 When I began writing some basic code, I wanted to reference a particular directory. What I wrote looked a little something like this:
 
+![pic1](/blog/img/pic1.png "string with escape characters")
 Pic1
 
-The problem with this is that Python recognises ì\î as an escape character. So to solve my issue I had to manually go through and change ì\î to ì/î. This did solve the issue but was annoying especially as I was copy and pasting directories locations, often with many back slashes.
+The problem with this is that Python recognises ‚Äú\‚Äù as an escape character. So to solve my issue I had to manually go through and change ‚Äú\‚Äù to ‚Äú/‚Äù. This did solve the issue but was annoying especially as I was copy and pasting directories locations, often with many back slashes.
 
+![pic2](/blog/img/pic2.png "edited literal string")
 Pic2
 
-One way to solve my issue would be to change every ì\î to ì\\î. This tells Python to ignore the single backslash as an escape character. However, again this would mean that I would have to go through and change ì\î to ì\\î.
+One way to solve my issue would be to change every ‚Äú\‚Äù to ‚Äú\\‚Äù. This tells Python to ignore the single backslash as an escape character. However, again this would mean that I would have to go through and change ‚Äú\‚Äù to ‚Äú\\‚Äù.
 
-I was blindly continuing with the first solution for a month or so until I stumbled across some info on strings. The important thing to know here is that assigning a string value by using single or double quotes creates a string literal. When dealing with literal strings, Python will act on any escape characters that it finds. To tell Python to ignore any escape characters, you can create a raw string. Hereís how the syntax looks. Simply start the string with either a lower or upper case ìrî.
+I was blindly continuing with the first solution for a month or so until I stumbled across some info on strings. The important thing to know here is that assigning a string value by using single or double quotes creates a string literal. When dealing with literal strings, Python will act on any escape characters that it finds. To tell Python to ignore any escape characters, you can create a raw string. Here‚Äôs how the syntax looks. Simply start the string with either a lower or upper case ‚Äúr‚Äù.
 
-Pic3
+![pic3](/blog/img/pic3.png "literal and raw strings")
 
-Using raw strings is very handy when referencing file paths like I was doing. Something to bear in mind however is you cannot end a raw string with ì\î. If you do this, Python will think you are trying to escape the ì character wrapping the string. To end a string with ì\î, you must use a literal (regular) string. 
+Using raw strings is very handy when referencing file paths like I was doing. Something to bear in mind however is you cannot end a raw string with ‚Äú\‚Äù. If you do this, Python will think you are trying to escape the ‚Äú character wrapping the string. To end a string with ‚Äú\‚Äù, you must use a literal (regular) string. 
 
 There you have it. A really tiny little thing that can save a bit of time when writing your code!
 
