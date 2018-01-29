@@ -1,5 +1,5 @@
 ---
-title: Python tips and tricks: Strings - literal vs raw
+title: Python tips and tricks - literal vs raw strings
 ---
 When I began writing some basic code, I wanted to reference a particular directory. What I wrote looked a little something like this:
 
