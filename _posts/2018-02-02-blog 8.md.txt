@@ -1,0 +1,14 @@
+---
+title: My First Milestone
+---
+Today, February 2nd 2018, I had my first ever Python script validated for use in my work environment! Let me explain...
+
+In my post 'My First Project' I mentioned that I wanted to give myself something to put my skills to the test. I talked about several modules or packages I wanted to design and then link to a GUI. As I am still behind with my blog posts, I've actually now written code for some of these modules. This script we are now using at work is one of those. I will do a full blog post on it soon, but I feel some accomplishment having gone from no coding knowledge to implementing something at work in just a few months.
+
+'What does it do?' I hear you ask. We have a lot of files in a master directory containing two unique pieces of information in the filename. The first is an identification number and the second is a sequencing tag. The script works on these files and moves them to a directory based on their identification number. If the directory does not exist, it creates it. If it does, it just moves the files. After files are moved, the script uses the sequencing tag to create sub-directories (if they don't already exist) and then move the files into these sub directories. What results is a directory structure as follows:
+
+Identification number > Sequencing tag > associated files
+
+We have generated thousands of files, so being able to categorise these automatically has saved a lot of time. It can also be re-run as and when new data files are added to the main directory. An added bonus is now all data is stored in a standardised way, meaning future use and statistical analysis can be automated.... I just need to write the scripts for that now!
+
+That's it for now. I will get back to normal, chronological posts next.
